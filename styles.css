@@ -15,4 +15,8 @@ p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
 }
- 
+ .table, th, td{
+    
+     border-style: none;
+      
+ }
