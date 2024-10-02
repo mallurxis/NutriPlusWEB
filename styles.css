@@ -9,16 +9,24 @@ body{
     padding:none;
     }
 
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+}
 p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 32px;
+    font-size: 40px;
     text-align: left;
-    padding: 10px;
+    padding: none;
 }
 .p1{
     font-family: Arial, Helvetica, sans-serif;
-    
-    font-size: 20px;
+    padding-bottom: 0px;
+    text-align: left;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    font-size: 28px;
     
 }
  .table, th, td{
@@ -32,12 +40,16 @@ p{
 .th1{
     border-style: none;
     height: 10px;
+    padding: none;
     
     
 }
 .table1{
     border-style: none;
-    padding: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom:0px;
     width: 600px;
     
 }
@@ -46,7 +58,7 @@ p{
     color: white;
     background-color: #009140;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 15px 32px;
+    padding: 32px 16px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -55,4 +67,10 @@ p{
     cursor: pointer;
   }
   
-  
+  .button1:hover {
+    background-color: #04AA6D;
+    color: white;
+  }
+   .img1{
+    margin-left: 1465px;
+   }
